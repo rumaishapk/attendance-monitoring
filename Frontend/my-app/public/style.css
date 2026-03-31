@@ -10,7 +10,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  
+ height: 100vh;
+  width: 100vw;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   font-family: "Poppins", sans-serif;
 }
@@ -95,9 +97,7 @@
   transform: translateY(-1px);
 }
 
-
 /* STUDENT VIEW */
-
 
 .student-container {
   display: flex;
@@ -106,7 +106,7 @@
   align-items: center;
   min-height: 100vh;
   background-color: #f4f7fe;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   padding: 20px;
 }
 
@@ -138,7 +138,7 @@
 .timer-display {
   background: #1a202c;
   color: #00d2ff;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   font-size: 3.5rem;
   padding: 20px;
   border-radius: 15px;
@@ -151,4 +151,66 @@
   display: flex;
   gap: 15px;
   justify-content: center;
+}
+
+/* STUDENT DETAILS */
+/* Full screen center aakkan */
+.details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+/* White Card Style */
+.details-card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: left;
+}
+
+.details-card h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+}
+
+/* Oro row-um nalla gap kodukkan */
+.info-row {
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+
+.info-label {
+  font-weight: bold;
+  color: #555;
+  display: block;
+  font-size: 0.9rem;
+}
+
+.info-value {
+  color: #000;
+  margin-top: 4px;
+}
+
+/* Button style */
+.back-button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
 }
